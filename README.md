@@ -1,5 +1,5 @@
 
-# Projet LLM - Ollama
+# Projet IA d'interaction des fichiers avec Ollama (Nelson Almeida)
 
 ## Description
 Ce projet propose une interface pour interagir avec des fichiers texte, PDF, ou JSON en utilisant Ollama, un modèle de langage de grande taille (LLM). Il est possible de poser des questions à l'IA sur le contenu des fichiers après traitement et conversion.
