@@ -1,0 +1,9 @@
+vault_file: "analysefichier.txt"
+embeddings_file: "vault_embeddings.json"
+ollama_model: "llama3"
+top_k: 7
+system_message: "Vous êtes un assistant serviable et expert dans l'extraction des informations les plus utiles à partir d'un texte donné."
+
+ollama_api:
+  base_url: "http://localhost:11434/v1"
+  api_key: "llama3"

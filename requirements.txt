@@ -1,0 +1,5 @@
+torch
+ollama
+openai
+PyPDF2
+requests
