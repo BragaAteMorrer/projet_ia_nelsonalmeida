@@ -49,7 +49,7 @@ Le projet inclut des fonctionnalités pour :
 
 3. **Exemple de commande** :
    ```bash
-   python interactionia.py --model llama3 --temperature 0.7
+   python interactionia.py
    ```
 
 ### Mode Non-RAG
@@ -59,7 +59,7 @@ Le projet inclut des fonctionnalités pour :
 
 2. **Exemple de commande** :
    ```bash
-   python interactionia_nonrag.py --model llama3 --temperature 0.5
+   python interactionia_nonrag.py
    ```
 
 ## Configuration des modèles
@@ -81,14 +81,14 @@ Pour ajuster la température, vous suffira de modifier cet ligne de code afin de
 
 ## Arborescence du projet
 ```
-├── analysefichier.txt  # Fichier de stockage des données analysées.
-├── config.yaml         # Fichier de configuration du projet.
-├── interactionia.py    # Script principal pour le mode RAG.
-├── interactionia_nonrag.py  # Script principal pour le mode Non-RAG.
-├── upload.py           # Script pour gérer le téléchargement et le traitement des fichiers.
-├── requirements.txt    # Liste des dépendances.
-├── vault.txt           # Exemple de contenu d'un fichier analysé.
+├── analysefichier.txt        # Fichier de stockage des données analysées.
+├── config.yaml               # Fichier de configuration du projet.
+├── interactionia.py          # Script principal pour le mode RAG.
+├── interactionia_nonrag.py   # Script principal pour le mode Non-RAG.
+├── upload.py                 # Script pour gérer le téléchargement et le traitement des fichiers.
+├── requirements.txt          # Liste des dépendances.
+├── vault.txt                 # Exemple de contenu d'un fichier analysé.
 ```
 
 ## Auteurs
-Ce projet a été développé pour démontrer les capacités d'interaction avec des fichiers via Ollama.
+Ce projet a été développé par Nelson Almeida pour démontrer les capacités d'interaction avec des fichiers via Ollama.
