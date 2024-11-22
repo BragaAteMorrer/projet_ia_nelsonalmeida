@@ -1,5 +1,5 @@
 
-# Projet IA d'interaction des fichiers avec Ollama (Nelson Almeida)
+# Projet LLM - Ollama
 
 ## Description
 Ce projet propose une interface pour interagir avec des fichiers texte, PDF, ou JSON en utilisant Ollama, un modèle de langage de grande taille (LLM). Il est possible de poser des questions à l'IA sur le contenu des fichiers après traitement et conversion.
@@ -41,13 +41,13 @@ Le projet inclut des fonctionnalités pour :
    - Le fichier sera traité et le contenu sera enregistré dans `analysefichier.txt`.
 
 2. **Analyse et discussion** :
-   - Exécutez `localrag.py` pour interagir avec le contenu du fichier en utilisant l'IA.
+   - Exécutez `interactionia.py` pour interagir avec le contenu du fichier en utilisant l'IA.
    - Posez vos questions à l'IA via la console pour des réponses précises et contextualisées.
 
 3. **Exemples de commandes** :
    ```bash
    python upload.py
-   python localrag.py
+   python interactionia.py
    ```
 
 ## Configuration des modèles
@@ -61,7 +61,7 @@ ollama run llama3
 ```
 ├── analysefichier.txt  # Fichier de stockage des données analysées.
 ├── config.yaml         # Fichier de configuration du projet.
-├── localrag.py         # Script principal pour interagir avec l'IA.
+├── interactionia.py         # Script principal pour interagir avec l'IA.
 ├── upload.py           # Script pour gérer le téléchargement et le traitement des fichiers.
 ├── requirements.txt    # Liste des dépendances.
 ├── vault.txt           # Exemple de contenu d'un fichier analysé.
@@ -71,4 +71,4 @@ ollama run llama3
 Ce projet a été développé pour démontrer les capacités d'interaction avec des fichiers via Ollama.
 
 ## License
-MIT License
+Y'en a pas
