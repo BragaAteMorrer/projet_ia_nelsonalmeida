@@ -61,7 +61,7 @@ ollama run llama3
 ```
 ├── analysefichier.txt  # Fichier de stockage des données analysées.
 ├── config.yaml         # Fichier de configuration du projet.
-├── interactionia.py         # Script principal pour interagir avec l'IA.
+├── interactionia.py    # Script principal pour interagir avec l'IA.
 ├── upload.py           # Script pour gérer le téléchargement et le traitement des fichiers.
 ├── requirements.txt    # Liste des dépendances.
 ├── vault.txt           # Exemple de contenu d'un fichier analysé.
